@@ -38,7 +38,7 @@ function injectImagesWithTag(tag) {
                 <p class="title">${image.title}</p>
                 <div class="divider">
                 </div>
-                <p class="sub-title">${image.description} en nog veel meer text zodat t teveel is en dan nog meer text even testen en nog meer text en nog meer veel te lang verhaal doei</p>
+                <p class="sub-title">${image.description}</p>
             </div></a>
         </div>
     `);
