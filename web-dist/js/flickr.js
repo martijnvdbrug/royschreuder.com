@@ -1,6 +1,5 @@
 $(document).ready(function () {
     let script = document.createElement('script');
-    // script.src = 'http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=receiveFlickrData&id=162737266@N06&tags=test&format=json';
     script.src = 'https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=receiveFlickrData&id=163390453@N04&&format=json';
     document.head.appendChild(script);
 });
