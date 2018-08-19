@@ -74,7 +74,6 @@ function getThumbnailUrl(imageUrl) {
 }
 
 function showImage(imageUrl) {
-    console.log(imageUrl);
     $('#image-overlay').html(`<img class="img-fluid centerImage"src="${imageUrl}">`);
     $('#image-overlay').show();
 }
