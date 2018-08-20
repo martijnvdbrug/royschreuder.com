@@ -20,8 +20,13 @@ function receiveFlickrData(data) {
 function injectImagesWithTag(tag) {
 
     $('#flickr').empty();
-    $(`#freehand`).toggleClass('disable');
-    $(`#stencil`).toggleClass('disable');
+
+    $(`#freehand`).removeClass('disable');
+    $(`#stencil`).removeClass('disable');
+    $(`#shop`).removeClass('disable');
+    $(`#workshop`).removeClass('disable');
+
+    $(`#${tag}`).addClass('disable');
 
 
     const images = getImages(flickrData);
