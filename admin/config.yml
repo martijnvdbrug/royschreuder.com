@@ -24,3 +24,34 @@ collections:
         fields:
           - {label: Title, name: about_title, widget: string}
           - {label: Content, name: about_content, widget: string}
+  - label: "Portfolio"
+    name: "portfolio"
+    files:
+      - label: "Freehand"
+        name: "freehand"
+        file: "_data/freehand.yml"
+        fields:
+          - {label: Title, name: url, widget: string}
+          - {label: Content, name: title, widget: string}
+          - {label: Description, name: description, widget: string}
+      - label: "Stencil"
+        name: "stencil"
+        file: "_data/stencils.yml"
+        fields:
+          - {label: Title, name: url, widget: string}
+          - {label: Content, name: title, widget: string}
+          - {label: Description, name: description, widget: string}
+      - label: "Workshop"
+        name: "workshop"
+        file: "_data/workshop.yml"
+        fields:
+          - {label: Title, name: url, widget: string}
+          - {label: Content, name: title, widget: string}
+          - {label: Description, name: description, widget: string}
+      - label: "Shop"
+        name: "shop"
+        file: "_data/shop.yml"
+        fields:
+          - {label: Title, name: url, widget: string}
+          - {label: Content, name: title, widget: string}
+          - {label: Description, name: description, widget: string}
