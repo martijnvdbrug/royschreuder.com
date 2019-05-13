@@ -17,13 +17,13 @@ collections:
         file: "_data/en.yml"
         fields:
           - {label: Title, name: about_title, widget: string}
-          - {label: Content, name: about_content, widget: string}
+          - {label: Content, name: about_content, widget: text}
       - label: "Over mij"
         name: "over mij"
         file: "_data/nl.yml"
         fields:
           - {label: Title, name: about_title, widget: string}
-          - {label: Content, name: about_content, widget: string}
+          - {label: Content, name: about_content, widget: text}
   - label: "Portfolio"
     name: "portfolio"
     files:
@@ -31,27 +31,27 @@ collections:
         name: "freehand"
         file: "_data/freehand.yml"
         fields:
-          - {label: Title, name: url, widget: string}
-          - {label: Content, name: title, widget: string}
+          - {label: Url, name: url, widget: string}
+          - {label: Title, name: title, widget: string}
           - {label: Description, name: description, widget: string}
       - label: "Stencil"
         name: "stencil"
         file: "_data/stencils.yml"
         fields:
-          - {label: Title, name: url, widget: string}
-          - {label: Content, name: title, widget: string}
+          - {label: Url, name: url, widget: string}
+          - {label: Title, name: title, widget: string}
           - {label: Description, name: description, widget: string}
       - label: "Workshop"
         name: "workshop"
         file: "_data/workshop.yml"
         fields:
-          - {label: Title, name: url, widget: string}
-          - {label: Content, name: title, widget: string}
+          - {label: Url, name: url, widget: string}
+          - {label: Title, name: title, widget: string}
           - {label: Description, name: description, widget: string}
       - label: "Shop"
         name: "shop"
         file: "_data/shop.yml"
         fields:
-          - {label: Title, name: url, widget: string}
-          - {label: Content, name: title, widget: string}
+          - {label: Url, name: url, widget: string}
+          - {label: Title, name: title, widget: string}
           - {label: Description, name: description, widget: string}
