@@ -1,18 +1,83 @@
 <section class="container container-portfolio">
+
     <div class="row">
         <div class="col-md-12">
             <h1>Portfolio</h1>
+
             <p class="portfolio-category">
-            <a href="" id="freehand"  onclick="injectImagesWithTag('freehand');return false;">Freehand work</a> -
-            <a href="" id="stencil" onclick="injectImagesWithTag('stencil');return false;">Stencil work</a> -
-            <a href="" id="workshop" onclick="injectImagesWithTag('workshop');return false;">Workshops</a> -
-            <a href="" id="shop" onclick="injectImagesWithTag('shop');return false;">Shop</a>
+                <a href="" onclick="showImages('#freehand-images');return false;">Freehand</a> -
+                <a href="" onclick="showImages('#stencil-images');return false;">Stencil</a> -
+                <a href="" onclick="showImages('#workshop-images');return false;">Workshop</a> -
+                <a href="" onclick="showImages('#shop-images');return false;">Shop</a>
             </p>
         </div>
-        <div id="flickr">
+        <div id="freehand-images" >
+
+            {% for image in site.data.stencils %}
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 cell-container" align="center">
+                <img class="image" src="{{ image.url }}"> <a class="overlay" href="" onclick="showImage('{{ image.url }}');return false;">
+                <div class="text">
+                    <p class="title">{{ image.title }}</p>
+                    <div class="divider">
+                    </div>
+                    <p class="sub-title">{{ image.description }}</p>
+                </div></a>
+            </div>
+            {% endfor %}
 
         </div>
+
+        <div id="stencil-images" style="display: none;">
+
+            {% for image in site.data.freehand %}
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 cell-container" align="center">
+                <img class="image" src="{{ image.url }}"> <a class="overlay" href="" onclick="showImage('{{ image.url }}');return false;">
+                <div class="text">
+                    <p class="title">{{ image.title }}</p>
+                    <div class="divider">
+                    </div>
+                    <p class="sub-title">{{ image.description }}</p>
+                </div></a>
+            </div>
+            {% endfor %}
+
+        </div>
+
+        <div id="workshop-images" style="display: none;">
+
+            {% for image in site.data.workshop %}
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 cell-container" align="center">
+                <img class="image" src="{{ image.url }}"> <a class="overlay" href="" onclick="showImage('{{ image.url }}');return false;">
+                <div class="text">
+                    <p class="title">{{ image.title }}</p>
+                    <div class="divider">
+                    </div>
+                    <p class="sub-title">{{ image.description }}</p>
+                </div></a>
+            </div>
+            {% endfor %}
+
+        </div>
+
+        <div id="shop-images" style="display: none;">
+
+            {% for image in site.data.shop %}
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 cell-container" align="center">
+                <img class="image" src="{{ image.url }}"> <a class="overlay" href="" onclick="showImage('{{ image.url }}');return false;">
+                <div class="text">
+                    <p class="title">{{ image.title }}</p>
+                    <div class="divider">
+                    </div>
+                    <p class="sub-title">{{ image.description }}</p>
+                </div></a>
+            </div>
+            {% endfor %}
+
+        </div>
+
     </div>
+
+
     <div id="image-overlay" onclick="hideImage()" class="pagination-centered">
 
     </div>

@@ -1,0 +1,26 @@
+# config.yml
+
+backend:
+  name: github # Or gitlab
+  repo: martijnvdbrug/royschreuder.com # Your username and repository
+  branch: master # Branch to use
+  base_url: https://europe-west1-cable-cms.cloudfunctions.net/authHandler # The base URL for your Firebase Function
+  auth_endpoint: /auth # The path to the OAuth endpoint of the function
+
+media_folder: 'web-dist/images/'
+collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "About"
+        name: "about"
+        file: "_data/en.yml"
+        fields:
+          - {label: Title, name: about_title, widget: string}
+          - {label: Content, name: about_content, widget: string}
+      - label: "Over mij"
+        name: "over mij"
+        file: "_data/nl.yml"
+        fields:
+          - {label: Title, name: about_title, widget: string}
+          - {label: Content, name: about_content, widget: string}
