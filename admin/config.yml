@@ -11,6 +11,8 @@ media_folder: 'web-dist/images/'
 collections:
   - label: "Pages"
     name: "pages"
+    editor:
+      preview: false
     files:
       - label: "About"
         name: "about"
@@ -26,6 +28,8 @@ collections:
           - {label: Content, name: about_content, widget: text}
   - label: "Portfolio"
     name: "portfolio"
+    editor:
+      preview: false
     files:
       - label: "Images"
         name: "images"
