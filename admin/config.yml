@@ -27,31 +27,10 @@ collections:
   - label: "Portfolio"
     name: "portfolio"
     files:
-      - label: "Freehand"
-        name: "freehand"
-        file: "_data/freehand.yml"
+      - label: "Images"
+        name: "images"
+        file: "_data/portfolio.yml"
         fields:
           - {label: Url, name: url, widget: string}
-          - {label: Title, name: title, widget: string}
           - {label: Description, name: description, widget: string}
-      - label: "Stencil"
-        name: "stencil"
-        file: "_data/stencils.yml"
-        fields:
-          - {label: Url, name: url, widget: string}
-          - {label: Title, name: title, widget: string}
-          - {label: Description, name: description, widget: string}
-      - label: "Workshop"
-        name: "workshop"
-        file: "_data/workshop.yml"
-        fields:
-          - {label: Url, name: url, widget: string}
-          - {label: Title, name: title, widget: string}
-          - {label: Description, name: description, widget: string}
-      - label: "Shop"
-        name: "shop"
-        file: "_data/shop.yml"
-        fields:
-          - {label: Url, name: url, widget: string}
-          - {label: Title, name: title, widget: string}
-          - {label: Description, name: description, widget: string}
+          - {label: Tags, name: tags, widget: list}
