@@ -9,7 +9,7 @@ backend:
 
 media_folder: 'web-dist/images/'
 collections:
-  - label: "Pages"
+  - label: "Teksten"
     name: "pages"
     editor:
       preview: false
@@ -35,6 +35,12 @@ collections:
         name: "images"
         file: "_data/portfolio.yml"
         fields:
-          - {label: Url, name: url, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Tags, name: tags, widget: list}
+          - {
+            label: "Navigation Items",
+            name: "items",
+            widget: "list",
+            fields:
+              - {label: Url, name: url, widget: string}
+              - {label: Description, name: description, widget: string}
+              - {label: Tags, name: tags, widget: list}
+          }
