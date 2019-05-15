@@ -1,8 +1,8 @@
 items:
   - url: /web-dist/images/portfolio/1.jpg
     description: Freehand
-#    tags: [freehand, shop]
+    tags: [freehand, shop]
   - url: /web-dist/images/portfolio/1.jpg
     description: Shop
-#    tags: [shop]
+    tags: [shop]
 
