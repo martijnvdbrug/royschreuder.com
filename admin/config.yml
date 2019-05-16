@@ -41,4 +41,4 @@ collections:
             fields:
               - {label: Afbeelding, name: url, widget: image}
               - {label: Beschrijving, name: description, widget: string}
-              - {label: Tags, name: tags, widget: list}
+              - {label: Tags, name: tags, widget: string}

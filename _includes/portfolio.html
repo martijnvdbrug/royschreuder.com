@@ -14,7 +14,7 @@
         <div id="portfolio-images">
 
             {% for image in site.data.portfolio.images %}
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 cell-container {% for i in image.tags %} {{ i }} {% endfor %}"
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 cell-container {{ image.tags }}"
                  align="center" style="display: none;">
                 <img class="image" src="{{ image.url }}"> <a class="overlay" href=""
                                                              onclick="showImage('{{ image.url }}');return false;">
