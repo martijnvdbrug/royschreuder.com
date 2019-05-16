@@ -7,7 +7,7 @@ backend:
   base_url: https://europe-west1-cable-cms.cloudfunctions.net/authHandler # The base URL for your Firebase Function
   auth_endpoint: /auth # The path to the OAuth endpoint of the function
 
-media_folder: 'web-dist/images/'
+media_folder: 'web-dist/images/portfolio'
 collections:
   - label: "Teksten"
     name: "pages"
@@ -31,16 +31,14 @@ collections:
     editor:
       preview: false
     files:
-      - label: "Images"
-        name: "images"
+      - label: "Portfolio afbeeldingen"
+        name: "afbeeldingen"
         file: "_data/portfolio.yml"
         fields:
-          - {
-            label: "Navigation Items",
-            name: "items",
-            widget: "list",
+          - label: Afbeeldingen
+            name: images
+            widget: list
             fields:
-              - {label: Url, name: url, widget: string}
-              - {label: Description, name: description, widget: string}
+              - {label: Afbeelding, name: url, widget: image}
+              - {label: Beschrijving, name: description, widget: string}
               - {label: Tags, name: tags, widget: list}
-          }
