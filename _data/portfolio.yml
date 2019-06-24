@@ -135,3 +135,15 @@ images:
     tag1: stencil
     tag2: stencil
     url: /web-dist/images/portfolio/st9.jpg
+  - description: workshop
+    tag1: workshop
+    tag2: workshop
+    url: /web-dist/images/portfolio/ws 1.jpg
+  - description: workshop
+    tag1: workshop
+    tag2: workshop
+    url: /web-dist/images/portfolio/ws 3.jpg
+  - description: workshop
+    tag1: workshop
+    tag2: workshop
+    url: /web-dist/images/portfolio/ws2.jpg
