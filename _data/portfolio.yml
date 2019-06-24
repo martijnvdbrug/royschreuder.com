@@ -79,3 +79,71 @@ images:
     tag1: shop
     tag2: shop
     url: /web-dist/images/portfolio/s4.jpg
+  - description: stencil
+    tag1: stencil
+    tag2: stencil
+    url: /web-dist/images/portfolio/st1 .jpg
+  - description: stencil
+    tag1: stencil
+    tag2: stencil
+    url: /web-dist/images/portfolio/st10.jpg
+  - description: stencil
+    tag1: stencil
+    tag2: stencil
+    url: /web-dist/images/portfolio/st11.jpg
+  - description: stencil
+    tag1: stencil
+    tag2: stencil
+    url: /web-dist/images/portfolio/st12.jpg
+  - description: stencil
+    tag1: stencil
+    tag2: stencil
+    url: /web-dist/images/portfolio/st13.jpg
+  - description: stencil
+    tag1: stencil
+    tag2: stencil
+    url: /web-dist/images/portfolio/st14.jpg
+  - description: stencil
+    tag1: stencil
+    tag2: stencil
+    url: /web-dist/images/portfolio/st2.jpg
+  - description: stencil
+    tag1: stencil
+    tag2: stencil
+    url: /web-dist/images/portfolio/st3.jpg
+  - description: stencil
+    tag1: stencil
+    tag2: stencil
+    url: /web-dist/images/portfolio/st5.jpg
+  - description: stencil
+    tag1: stencil
+    tag2: stencil
+    url: /web-dist/images/portfolio/st4.jpg
+  - description: stencil
+    tag1: stencil
+    tag2: stencil
+    url: /web-dist/images/portfolio/st6.jpg
+  - description: stencil
+    tag1: stencil
+    tag2: stencil
+    url: /web-dist/images/portfolio/st7.jpg
+  - description: stencil
+    tag1: stencil
+    tag2: stencil
+    url: /web-dist/images/portfolio/st8.jpg
+  - description: stencil
+    tag1: stencil
+    tag2: stencil
+    url: /web-dist/images/portfolio/st9.jpg
+  - description: workshop
+    tag1: workshop
+    tag2: workshop
+    url: /web-dist/images/portfolio/ws 1.jpg
+  - description: workshop
+    tag1: workshop
+    tag2: workshop
+    url: /web-dist/images/portfolio/ws 3.jpg
+  - description: workshop
+    tag1: workshop
+    tag2: workshop
+    url: /web-dist/images/portfolio/ws2.jpg
