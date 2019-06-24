@@ -63,3 +63,11 @@ images:
     tag1: freehand
     tag2: freehand
     url: /web-dist/images/portfolio/f9.jpg
+  - description: shop
+    tag1: shop
+    tag2: shop
+    url: /web-dist/images/portfolio/s1.jpg
+  - description: shop
+    tag1: shop
+    tag2: shop
+    url: /web-dist/images/portfolio/s2.jpg
