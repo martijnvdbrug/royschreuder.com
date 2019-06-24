@@ -3,3 +3,15 @@ images:
     tag1: freehand
     tag2: freehand
     url: /web-dist/images/portfolio/f1.jpg
+  - description: freehand
+    tag1: freehand
+    tag2: freehand
+    url: /web-dist/images/portfolio/f10.jpg
+  - description: freehand
+    tag1: freehand
+    tag2: freehand
+    url: /web-dist/images/portfolio/f11.jpg
+  - description: freehand
+    tag1: freehand
+    tag2: freehand
+    url: /web-dist/images/portfolio/f12.jpg
