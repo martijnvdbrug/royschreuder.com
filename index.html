@@ -18,30 +18,28 @@
                 <h1 class="go-right">SCH</h1>
                 <h1 class="go-left">REU</h1>
                 <h1 class="go-right">DER</h1>
-                <h1><a href="#home" data-smooth-scroll>↓</a></h1>
+                <h1><a href="#home">↓</a></h1>
             </div>
         </div>
         <div class="cell large-3 show-for-large"></div>
     </div>
 </header>
 
-<section id="menu">
+<section id="mobile-menu" class="hide-for-large">
     <div data-sticky-container>
-        <div class="title-bar" data-sticky data-options="marginTop:0;" style="width:100%" data-top-anchor="1" data-btm-anchor="home:top">
+        <div class="title-bar" data-sticky data-sticky-on="small" data-options="marginTop:0;" style="width:100%" data-top-anchor="home">
             <div class="title-bar-left"><a href="#intro" data-smooth-scroll>R</a></div>
             <div class="title-bar-right"><button class="menu-icon" type="button" data-toggle="menuOffCanvas"></button></div>
         </div>
     </div>
-
     <div class="off-canvas position-right text-right" id="menuOffCanvas" data-off-canvas>
-        <ul class="vertical menu ">
+        <ul class="vertical menu">
             <li><a data-close>&times;</a></li>
             <li><br/></li>
             <li><a href="#home" data-close>Home</a></li>
             <li><a href="#home" data-close>Freehand</a></li>
         </ul>
     </div>
-
 </section>
 
 <section id="home">
