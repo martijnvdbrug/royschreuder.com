@@ -1,6 +1,8 @@
 @import './node_modules/foundation-sites/scss/foundation';
 
-$body-font-family: 'Inconsolata', monospace;
+/* Overall style */
+$header-font-family: 'Inconsolata', monospace;
+$body-font-family: 'Inconsolata';
 $body-font-color: #373333;
 
 /* navigation */
@@ -70,6 +72,14 @@ $offcanvas-sizes: ("small": 100%);
 @include foundation-visibility-classes;
 @include foundation-prototype-classes;
 
+h1 {
+  font-weight: bold;
+}
+
+p {
+  text-align: left;
+}
+
 .intro-background {
   background-image: url('/images/roy-schreuder-intro.png');
   background-repeat: no-repeat;
@@ -92,11 +102,11 @@ $offcanvas-sizes: ("small": 100%);
   height: 100vh;
   text-align: center;
   padding-top: 10vh;
-  overflow:hidden;
+  overflow: hidden;
 }
 
-.image-container img {
-  margin: 3rem 0 3rem 0;
+.content-container img {
+  margin: 3rem 0 0.5rem 0;
 }
 
 .title-bar {
@@ -112,9 +122,29 @@ $offcanvas-sizes: ("small": 100%);
 
 #menuOffCanvas a {
   color: $body-font-color;
+  font-family: $header-font-family;
   font-size: 1.5rem;
   background-color: #fff;
 }
 
+.strong {
+  font-weight: bold;
+}
 
-/*@import 'menu';*/
+.mobile-menu-align-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 16px;
+}
+
+.social-icon {
+  height: 1em;
+  width: auto;
+}
+
+.image-title {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 0;
+}
