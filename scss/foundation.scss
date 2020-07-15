@@ -99,10 +99,20 @@ p {
 }
 
 .intro-text {
+  width: 100vw;
   height: 100vh;
   text-align: center;
-  padding-top: 10vh;
   overflow: hidden;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Increase intro font on larger screens*/
+@media (min-width:700px) {
+  .intro-text h1 {
+    font-size: 9rem;
+    line-height: 0.9;
+  }
 }
 
 .content-container img {
@@ -148,3 +158,4 @@ p {
   font-weight: bold;
   margin-bottom: 0;
 }
+
