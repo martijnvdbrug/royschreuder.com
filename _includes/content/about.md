@@ -1,7 +1,9 @@
 ---
 layout: layouts/portfolio
 permalink: /{{ locale }}/about/
-title: About Roy 
+title:
+ en:  About Roy
+ nl: Over Roy 
 description:
  en: This is the About Roy page.
  nl: Over Roy pagina in 't Nederlands.
