@@ -1,0 +1,25 @@
+<li>
+    {% if locale === 'en' %}
+    <a data-close class="strong" style="display: inline; padding: 0;">EN /</a>
+    <a href="/nl" style="display: inline; padding-left: 0;">NL</a>
+    {% else %}
+    <a href="/en" style="display: inline; padding: 0;">EN /</a>
+    <a data-close class="strong" style="display: inline; padding-left: 0;">NL</a>
+    {% endif %}
+</li>
+<li><br/></li>
+<li><br/></li>
+<li><a href="/{{ locale }}" class="{% if title === 'Home' %}strong{% endif %}">HOME</a></li>
+<li><a href="/{{ locale }}/freehand" class="{% if title === 'Freehand' %}strong{% endif %}">FREEHAND</a></li>
+<li><a href="/{{ locale }}/stencil" class="{% if title === 'Stencil' %}strong{% endif %}">STENCIL</a></li>
+<li><a href="/{{ locale }}/workshop" class="{% if title === 'Workshop' %}strong{% endif %}">WORKSHOP</a></li>
+<li><a href="/{{ locale }}/sidewalk-gallery" class="{% if title === 'Sidewalk Gallery' %}strong{% endif %}">SIDEWALK GALLERY</a></li>
+{% if locale === 'en' %}
+<li><a href="/{{ locale }}/about" class="{% if title.en === 'About Roy' %}strong{% endif %}">ABOUT ROY</a></li>
+{% else %}
+<li><a href="/{{ locale }}/about" class="{% if title.nl === 'Over Roy' %}strong{% endif %}">OVER ROY</a></li>
+{% endif %}
+<li><a href="/{{ locale }}/contact" class="{% if title === 'Contact' %}strong{% endif %}">CONTACT</a></li>
+<li><br/></li>
+<li><a href="https://www.instagram.com/royschreuder/"><img class="social-icon" src="/images/icons/instagram.png"/></a></li>
+<li><a href="https://www.facebook.com/Roy-Schreuder-438586682864715/"><img class="social-icon" src="/images/icons/facebook.png"/></a></li>

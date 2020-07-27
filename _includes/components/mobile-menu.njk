@@ -1,38 +1,14 @@
 <section id="mobile-menu" class="hide-for-large">
     <div data-sticky-container>
         <div class="title-bar" data-sticky data-sticky-on="small" data-options="marginTop:0;" style="width:100%" data-top-anchor="1">
-            <div class="title-bar-left"><a href="#intro" data-smooth-scroll>R</a></div>
+            <!--<div class="title-bar-left"><a href="#intro" data-smooth-scroll>R</a></div>-->
             <div class="title-bar-right"><button class="menu-icon" type="button" data-toggle="menuOffCanvas"></button></div>
         </div>
     </div>
     <div class="off-canvas position-right text-right" id="menuOffCanvas" data-off-canvas>
         <a data-close style="margin:16px;">&times;</a>
         <ul class="vertical menu mobile-menu-align-bottom">
-            <li>
-                {% if locale === 'en' %}
-                <a data-close class="strong" style="display: inline; padding: 0;">EN /</a>
-                <a href="/nl" style="display: inline; padding-left: 0;">NL</a>
-                {% else %}
-                <a href="/en" style="display: inline; padding: 0;">EN /</a>
-                <a data-close class="strong" style="display: inline; padding-left: 0;">NL</a>
-                {% endif %}
-            </li>
-            <li><br/></li>
-            <li><br/></li>
-            <li><a href="/{{ locale }}" class="{% if title === 'Home' %}strong{% endif %}">HOME</a></li>
-            <li><a href="/{{ locale }}/freehand" class="{% if title === 'Freehand' %}strong{% endif %}">FREEHAND</a></li>
-            <li><a href="/{{ locale }}/stencil" class="{% if title === 'Stencil' %}strong{% endif %}">STENCIL</a></li>
-            <li><a href="/{{ locale }}/workshop" class="{% if title === 'Workshop' %}strong{% endif %}">WORKSHOP</a></li>
-            <li><a href="/{{ locale }}/sidewalk-gallery" class="{% if title === 'Sidewalk Gallery' %}strong{% endif %}">SIDEWALK GALLERY</a></li>
-            {% if locale === 'en' %}
-            <li><a href="/{{ locale }}/about" class="{% if title === 'About Roy' %}strong{% endif %}">ABOUT ROY</a></li>
-            {% else %}
-            <li><a href="/{{ locale }}/about" class="{% if title === 'Over Roy' %}strong{% endif %}">OVER ROY</a></li>
-            {% endif %}
-            <li><a href="/{{ locale }}/contact" class="{% if title === 'Contact' %}strong{% endif %}">CONTACT</a></li>
-            <li><br/></li>
-            <li><a href="https://www.instagram.com/royschreuder/"><img class="social-icon" src="/images/icons/instagram.png"/></a></li>
-            <li><a href="https://www.facebook.com/Roy-Schreuder-438586682864715/"><img class="social-icon" src="/images/icons/facebook.png"/></a></li>
+            {% include "components/menu-list.njk" %}
         </ul>
     </div>
 </section>

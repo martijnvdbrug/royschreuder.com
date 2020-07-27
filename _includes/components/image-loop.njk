@@ -14,6 +14,24 @@
             <p>{{ i.subtitle}}</p>
             {% endfor %}
         </div>
-        <div class="cell large-3 show-for-large text-right"></div>
+        <div class="cell large-3 show-for-large text-right">
+
+            <!-- Sticky side nav -->
+            <div data-sticky-container>
+
+                {% if title === 'Home' %}
+                <div data-sticky data-options="marginTop:0;" data-top-anchor="1">
+                {% else %}
+                    <div data-sticky data-options="marginTop:0;" data-top-anchor="-1">
+                {% endif %}
+                    <ul class="vertical menu" id="largeScreenMenu">
+                        <li><br/></li>
+                        <li><br/></li>
+                        {% include "components/menu-list.njk" %}
+                    </ul>
+                </div>
+            </div>
+
+        </div>
     </div>
 </section>

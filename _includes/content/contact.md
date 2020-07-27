@@ -1,6 +1,6 @@
 ---
 layout: layouts/portfolio
-permalink: /{{ locale }}/contact/
+permalink: "/{{ locale }}/contact/"
 title: Contact 
 description:
  en: This is the About Roy page.

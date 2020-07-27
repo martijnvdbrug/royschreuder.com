@@ -2,6 +2,9 @@
 title: Home
 layout: layouts/index
 permalink: /{{locale}}/
+description:
+ en: Portfolio of Roy Schreuder, street artist and graffiti artist from Leeuwarden, The Netherlands
+ nl: Portfolio van Roy Schreuder, street artist en graffiti kunstenaar uit Leeuwarden. 
 images: 
  - url: /images/roy-schreuder-krab.jpg
    title: Markt 058

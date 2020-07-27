@@ -5,8 +5,22 @@
     {% if title === 'Home' %}
     <title>Roy Schreuder</title>
     {% else %}
-    <title>Roy Schreuder - {{ title }}</title>
+    <title>
+        Roy Schreuder -
+        {% if title[locale] %}
+        {{ title[locale] }}
+        {% else %}
+        {{ title }}
+        {% endif %}
+    </title>
     {% endif %}
+
+    <meta name="description" content="{{ description[locale] }}">
+    <meta property="og:description" content="{{ description[locale] }}">
+    <meta property="og:image" content="/images/roy-schreuder-intro.png">
+    <meta property="og:url" content="https://royschreuder.com/">
+    <meta property="og:title" content="Portfolio Roy Schreuder">
+
     <link rel="stylesheet" href="/css/foundation.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="/images/favicon.png">
