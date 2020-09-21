@@ -6,16 +6,19 @@ description:
  en: Portfolio of Roy Schreuder, street artist and graffiti artist from Leeuwarden, The Netherlands
  nl: Portfolio van Roy Schreuder, street artist en graffiti kunstenaar uit Leeuwarden. 
 images: 
- - url: /images/roy-schreuder-krab.jpg
-   title: Markt 058
+ - url: /images/mural1.jpg
+   title: Stadhuis Leeuwarden
    subtitle: Leeuwarden 2019
- - url: /images/roy-schreuder-stencil.png
+ - url: /images/freehand1.jpg
    title: Stenciltje
    subtitle: Leeuwarden 2022
- - url: /images/roy-schreuder-stencil.png
+ - url: /images/stencil1.jpg
    title: Stenciltje
    subtitle: Leeuwarden 2020 
- - url: /images/roy-schreuder-stencil.png
+ - url: /images/workshop1.jpg
+   title: Stenciltje
+   subtitle: Leeuwarden 2020 
+ - url: /images/sidewalk1.jpg
    title: Stenciltje
    subtitle: Leeuwarden 2020 
 ---

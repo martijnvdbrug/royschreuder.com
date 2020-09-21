@@ -1,23 +1,10 @@
 ---
-layout: layouts/portfolio
+layout: layouts/contact
 permalink: "/{{ locale }}/contact/"
 title: Contact 
 description:
- en: This is the About Roy page.
- nl: Over Roy pagina in 't Nederlands.
-images: 
- - url: /images/roy-schreuder-krab.jpg
-   title:
-    nl: Over Roy 101
-    en: About Roy  engels
-   subtitle: Leeuwarden 2019
- - url: /images/roy-schreuder-stencil.png
-   title: Stenciltje
-   subtitle: Leeuwarden 2022
- - url: /images/roy-schreuder-stencil.png
-   title: Stenciltje
-   subtitle: Leeuwarden 2020 
- - url: /images/roy-schreuder-stencil.png
-   title: Stenciltje
-   subtitle: Leeuwarden 2020 
+ en: You can reach me by email or phone with the details below.
+ nl: Je kan me telefonisch of via email bereiken met onderstaande gegevens.
+email: info@royschreuder.com
+phone: +31 6 40604409
 ---
