@@ -1,7 +1,5 @@
 ---
-# layout: content/home
-title: Under Construction
-layout: layouts/under_construction
+layout: content/home
 permalink: /
 locale: nl
 description:
