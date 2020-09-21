@@ -6,7 +6,7 @@
             {% for i in images %}
 
             {% if i.linkText[locale] %}
-            <a href="{{ i.linkTo }}">{{ i.linkText[locale] }}</a>
+            <a  href="{{ i.linkTo }}">{{ i.linkText[locale] }}</a>
             {% else %}
             <a href="{{ i.linkTo }}">{{ i.linkText }}</a>
             {% endif %}
