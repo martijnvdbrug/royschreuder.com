@@ -2,8 +2,16 @@
     <div class="grid-x margin-horizontal-3">
         <div class="cell large-3 show-for-large"></div>
         <div class="cell small-12 large-6 content-container">
+
             {% for i in images %}
-            <img src="{{ i.url }}" style="width: 100%;"/>
+
+            {% if i.linkText[locale] %}
+            <a href="{{ i.linkTo }}">{{ i.linkText[locale] }}</a>
+            {% else %}
+            <a href="{{ i.linkTo }}">{{ i.linkText }}</a>
+            {% endif %}
+
+            <img src="/images/placeholder.png" class="lazy" data-src="{{ i.url }}" style="width: 100%; margin-top:0;"/>
             <h2 class="image-title">
                 {% if i.title[locale] %}
                 {{ i.title[locale] }}

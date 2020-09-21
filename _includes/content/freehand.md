@@ -1,7 +1,7 @@
 ---
 layout: layouts/portfolio
-permalink: /{{ locale }}/freehand/
-title: Freehand  
+permalink: /{{ locale }}/other-walls/
+title: Other walls  
 description:
  en: Here comes some text yes english.
  nl: hier wat nederlandse text.
