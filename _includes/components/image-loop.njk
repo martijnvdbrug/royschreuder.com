@@ -15,9 +15,9 @@
                 </h2>
                 <p style="margin-bottom: 0;">{{ i.subtitle}}</p>
                 {% if i.linkText[locale] %}
-                <a href="{{ i.linkTo }}">{{ i.linkText[locale] }}</a>
+                <a href="/{{locale}}/{{ i.linkTo }}">{{ i.linkText[locale] }}</a>
                 {% else %}
-                <a href="{{ i.linkTo }}">{{ i.linkText }}</a>
+                <a href="/{{locale}}/{{ i.linkTo }}">{{ i.linkText }}</a>
                 {% endif %}
             </div>
             {% endfor %}
