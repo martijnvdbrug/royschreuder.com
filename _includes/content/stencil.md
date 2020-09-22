@@ -1,26 +1,26 @@
 ---
 layout: layouts/portfolio
 permalink: /{{ locale }}/stencil/
-title: Stencil  
+title: Stencils  
 description:
- en: These are stencils.
- nl: Dit zijn stencils.
+ en: 
+ nl: 
 images: 
  - url: /images/stencil1.jpg
-   title:
-    nl: Stencil 101
-    en: Stencilling 101
-   subtitle: Leeuwarden 2019
+   title: Portret Felix Mendelssohn
+   subtitle: Leeuwarden, 2020 
  - url: /images/stencil2.jpg
-   title: Stenciltje
-   subtitle: Leeuwarden 2022
+   title: 
+    nl: Mata Hari in opdracht van het Fries Museum
+    en: Mata Hari for the Fries Museum
+   subtitle: Leeuwarden, 2017
  - url: /images/stencil3.jpg
-   title: Stenciltje
-   subtitle: Leeuwarden 2020 
+   title: Vosseparkwijk
+   subtitle: Leeuwarden, 2018 
  - url: /images/stencil4.jpg
-   title: Stenciltje
-   subtitle: Leeuwarden 2020 
+   title: Nelson Mandelaplein
+   subtitle: Leeuwarden, 2018
  - url: /images/stencil5.jpg
-   title: Stenciltje
-   subtitle: Leeuwarden 2020 
+   title: Van der Nootstraat
+   subtitle: Leeuwarden, 2019
 ---

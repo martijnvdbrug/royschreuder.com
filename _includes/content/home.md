@@ -7,30 +7,42 @@ description:
  nl: Portfolio van Roy Schreuder, street artist en graffiti kunstenaar uit Leeuwarden. 
 images: 
  - url: /images/mural1.jpg
-   title: Stadhuis Leeuwarden
-   subtitle: Leeuwarden 2019
+   title: 
+    en: Leeuwarden Cityhall with Joram Roukes
+    nl: Gemeentehuis Leeuwarden met Joram Roukes
+   subtitle: Leeuwarden, 2020
    linkTo: mural
    linkText:
-    en: Mural
-    nl: Mural nl
+    en: More murals >
+    nl: Meer murals >
  - url: /images/freehand1.jpg
-   title: Stenciltje
-   subtitle: Leeuwarden 2022
-   linkTo: /mural
-   linkText: Mural
+   title: 
+    en: Constructionfence
+    nl: Bouwschutting
+   subtitle: Leeuwarden, 2018
+   linkTo: other-walls
+   linkText: Other walls >
  - url: /images/stencil1.jpg
-   title: Stenciltje
-   subtitle: Leeuwarden 2020 
-   linkTo: /mural
-   linkText: Mural
+   title: Portret Felix Mendelssohn
+   subtitle: Leeuwarden, 2020 
+   linkTo: stencil
+   linkText:
+    en: More stencils >
+    nl: Meer stencil werk >
  - url: /images/workshop1.jpg
-   title: Stenciltje
-   subtitle: Leeuwarden 2020 
-   linkTo: /mural
-   linkText: Mural
+   title: Workshops
+   subtitle: Workshops voor scholen, bedrijfsuitjes en andere groepen. 
+   linkTo: workshop
+   linkText:
+    en: Go to workshops >
+    nl: Ga naar workshops >
  - url: /images/sidewalk1.jpg
-   title: Stenciltje
-   subtitle: Leeuwarden 2020 
-   linkTo: /mural
-   linkText: Mural
+   title: Sidewalk Gallery
+   subtitle: Voorstreek 32A, Leeuwarden 
+   linkTo: sidewalk
+   linkText:
+    en: More about Sidewalk Gallery
+    nl: Meer over Sidewalk Gallery >
 ---
+
+

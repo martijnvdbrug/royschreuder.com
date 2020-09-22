@@ -3,24 +3,30 @@ layout: layouts/portfolio
 permalink: /{{ locale }}/other-walls/
 title: Other walls  
 description:
- en: Here comes some text yes english.
- nl: hier wat nederlandse text.
+ en: 
+ nl: 
 images: 
  - url: /images/freehand1.jpg
-   title:
-    nl: Markt 058
-    en: Market 058
-   subtitle: Leeuwarden 2019
+   title: 
+    en: Constructionfence
+    nl: Bouwschutting
+   subtitle: Leeuwarden, 2018
  - url: /images/freehand2.jpg
-   title: Stenciltje
-   subtitle: Leeuwarden 2022
+   title:
+    en: Own work
+    nl: Eigen werk
+   subtitle: Leeuwarden, 2018
  - url: /images/freehand3.jpg
-   title: Stenciltje
-   subtitle: Leeuwarden 2020 
+   title: Gym Iron Heart
+   subtitle: Leeuwarden, 2020 
  - url: /images/freehand4.jpg
-   title: Stenciltje
-   subtitle: Leeuwarden 2020 
+   title:
+    en: Festival deco for Peen Soundsystem
+    nl: Festival deco voor Peen Soundsystem
+   subtitle: Leeuwarden, 2029
  - url: /images/freehand5.jpg
-   title: Stenciltje
-   subtitle: Leeuwarden 2020 
+   title: 
+    en: Wall for Alphen Art festival
+    nl: Muur voor Alphen Art festival
+   subtitle: Alphen aan de Rijn, 2019
 ---

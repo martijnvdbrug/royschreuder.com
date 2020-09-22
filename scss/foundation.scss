@@ -76,10 +76,10 @@ h1 {
   font-weight: bold;
 }
 
-p {
+/*p {
   text-align: left;
   margin-bottom: 3rem;
-}
+}*/
 
 .intro-background {
   background-image: url('/images/roy-schreuder-intro.png');
@@ -167,7 +167,10 @@ p {
   margin-bottom: 0;
 }
 
-#intro-text {
-  margin-top: 40px;
+@media #{$large-up} {
+  #intro-text {
+    margin-top: 40px;
+  }
 }
+
 

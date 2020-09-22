@@ -16,7 +16,7 @@
                 {{ title }}
                 {% endif %}
             </h1>
-            <p>{{ description[locale] }}</p>
+            <p>{{ description[locale] | safe }}</p>
         </div>
         <div class="cell large-3 show-for-large text-right"></div>
     </div>

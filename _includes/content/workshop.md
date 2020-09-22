@@ -1,20 +1,12 @@
 ---
 layout: layouts/portfolio
 permalink: /{{ locale }}/workshop/
-title: Workshop  
+title: Workshops  
 description:
- en: This is the workshop page.
- nl: Workshop pagina in 't Nederlands.
+ en: I host workshops for different groups like schools, companies or events. Contact me to discuss the possibilities.
+ nl: Ik geef regelmatig workshops aan allerlei verschillende groepen zoals scholen, bedrijfsuitjes en voor evenementen. Stuur gerust een email om de mogelijkheden te bespeken. 
 images: 
  - url: /images/workshop1.jpg
-   title:
-    nl: Workshop 101
-    en: Workshop 101
-   subtitle: Leeuwarden 2019
  - url: /images/workshop2.jpg
-   title: Stenciltje
-   subtitle: Leeuwarden 2022
  - url: /images/workshop3.jpg
-   title: Stenciltje
-   subtitle: Leeuwarden 2020 
 ---

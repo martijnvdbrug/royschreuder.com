@@ -1,26 +1,26 @@
 ---
 layout: layouts/portfolio
 permalink: /{{ locale }}/mural/
-title: Mural  
+title: Murals
 description:
- en: Here comes some text yes english.
- nl: hier wat nederlandse text.
+ en: 
+ nl: 
 images: 
  - url: /images/mural1.jpg
-   title:
-    nl: Markt 058
-    en: Market 058
-   subtitle: Leeuwarden 2019
+   title: 
+    en: Leeuwarden Cityhall with Joram Roukes
+    nl: Gemeentehuis Leeuwarden met Joram Roukes
+   subtitle: Leeuwarden, 2020
  - url: /images/mural2.jpg
-   title: Stenciltje
-   subtitle: Leeuwarden 2022
+   title: Markt 058
+   subtitle: Leeuwarden 2018
  - url: /images/mural3.jpg
-   title: Stenciltje
-   subtitle: Leeuwarden 2020 
+   title: Skatepark Bowl
+   subtitle: Leeuwarden, 2018
  - url: /images/mural4.jpg
-   title: Stenciltje
-   subtitle: Leeuwarden 2020 
+   title: Detail Markt 058
+   subtitle: Leeuwarden, 2018 
  - url: /images/mural5.jpg
-   title: Stenciltje
-   subtitle: Leeuwarden 2020 
+   title: Arriva Loods in samenwerking met J. Deathrow
+   subtitle: Leeuwarden, 2017
 ---
