@@ -1,9 +1,9 @@
 <li>
     {% if locale === 'en' %}
     <a data-close class="strong" style="display: inline; padding: 0;">EN /</a>
-    <a href="/nl" style="display: inline; padding-left: 0;">NL</a>
+    <a href="/nl{{ permalink | unLocalify}}" style="display: inline; padding-left: 0;">NL</a>
     {% else %}
-    <a href="/en" style="display: inline; padding: 0;">EN /</a>
+    <a href="/en{{ permalink | unLocalify}}" style="display: inline; padding: 0;">EN /</a>
     <a data-close class="strong" style="display: inline; padding-left: 0;">NL</a>
     {% endif %}
 </li>
