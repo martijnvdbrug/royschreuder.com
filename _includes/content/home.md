@@ -39,7 +39,7 @@ images:
  - url: /images/sidewalk1.jpg
    title: Sidewalk Gallery
    subtitle: Voorstreek 32A, Leeuwarden 
-   linkTo: sidewalk
+   linkTo: sidewalk-gallery
    linkText:
     en: More about Sidewalk Gallery
     nl: Meer over Sidewalk Gallery >
